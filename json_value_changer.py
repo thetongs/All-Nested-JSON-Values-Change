@@ -3,7 +3,7 @@
 import json
 
 # Open
-with open("Data/Sample_Json.json", "r", encoding = 'utf-8' ) as file:
+with open("Sample_Json.json", "r", encoding = 'utf-8' ) as file:
     data = json.load(file)
 
 data1 = data
